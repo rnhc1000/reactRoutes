@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Ysabeau:ital,wght@1,200;1,300;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-color: rgb(151, 192, 192);
+  font-family: Inter, sans-serif;
+}
+
+.main-container {
+
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  height: 200px;
+  background-color: #FFF;
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+.main-container p {
+  font-size: 20px;
+  font-weight: 700px;
+  margin: 20px 0 0 20px;
+}
+
+.btn-navigate {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 150px;
+  height: 45px;
+  background-color: #FF2323;
+  margin: 43px auto auto 160px;
+  padding: 13px 20px;
+}
+
+.btn-navigate p {
+  color: #FFF;
+  text-decoration: none;
+
+}
