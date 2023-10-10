@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Ysabeau:ital,wght@1,200;1,300;1,500&display=swap');
 
+
+:root {
+
+  --color-bg-primary: #FFF;
+  --color-bg-secondary: #FF2323;
+  --color-bg-tertiary: #dadada;
+
+  --color-font-primary: #6F6F6F;
+  --color-font-secondary: #FFF;
+
+
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Inter, sans-serif;
 }
 
-body, html {
-  background-color: rgb(151, 192, 192);
-  font-family: Inter, sans-serif;
+body,
+html {
+  background-color: var(--color-bg-tertiary);
 }
 
 .main-container {
@@ -17,7 +31,7 @@ body, html {
   width: 100%;
   max-width: 960px;
   height: 200px;
-  background-color: #FFF;
+  background-color: var(--color-bg-primary);
   margin-left: 160px;
   margin-top: 30px;
 }
@@ -34,13 +48,15 @@ body, html {
   width: 100%;
   max-width: 150px;
   height: 45px;
-  background-color: #FF2323;
+  background-color: var(--color-bg-secondary);
   margin: 43px auto auto 160px;
   padding: 13px 20px;
 }
 
 .btn-navigate p {
-  color: #FFF;
-  text-decoration: none;
+  color: var(--color-font-primary);
+}
 
+a, a:hover {
+  text-decoration: none;
 }

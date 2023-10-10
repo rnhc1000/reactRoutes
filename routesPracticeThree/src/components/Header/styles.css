@@ -1,0 +1,36 @@
+header {
+    height: 80px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-secondary);
+    display: flex;
+    align-items: center;
+}
+
+.header-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-name {
+    font-size: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-active {
+    font-weight: 700;
+}
+
+.nav-inactive {
+    font-weight: 300;
+}
+
+.menu-item {
+    font-size: 16px;
+    font-weight: 300;
+}
+
